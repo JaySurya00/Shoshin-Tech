@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.information,
+.statistics,
+.announcement,
+.activity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.dashboard {
+    width: 350px;
+    padding: 10px 10px 10px 0;
+}
+
+.dashboard p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: linear-gradient(0deg, #161E54, #161E54), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .dashboard {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .information,
+    .statistics,
+    .announcement,
+    .activity {
+        flex: 2;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .activity{
+        margin-top: 50px;
+    }
+
+    .information,
+    .statistics {
+        flex-wrap: wrap;
+    }
+
+    .announcement,
+    .activity {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .section1{
+        margin-right: 15px;
+    }
+}

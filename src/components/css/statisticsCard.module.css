@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    width: 350px;
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main Content */
+
+.mainContent{
+    min-width: 155px;
+    min-height: 146px;
+}
+
+.mainInfo {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: linear-gradient(0deg, #161E54, #161E54), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-wrap:nowrap;
+    margin:0;
+
+}
+
+.mainData {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 500;
+    color: linear-gradient(0deg, #161E54, #161E54), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    margin:0;
+}
+
+.mainSubInfo{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(104, 104, 104, 1);
+    margin:0;
+}
+
+/* ------------------------------------------ */
+/* Chart content */
+
+.chartContent{
+    width: 115px;
+    height: 121px;
+    align-items: center;
+}
+
+.chartContent img {
+    max-width: 100%;  /* Ensure the image fits within the width */
+    max-height: 100%; /* Ensure the image fits within the height */
+    object-fit: contain; /* Keeps the image's aspect ratio */
+}
+
+.chartData{
+    font-family: 'Rubik';
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(255, 81, 81, 1);
+
+}
+
+.chartInfo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    width: 107px;
+    height: 24px;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    background: rgba(255, 239, 231, 1);
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+    .sidebar {
+      display: block;
+    }
+  }
+  
+  .main-content {
+    padding-left: 30px;
+    flex-grow: 1;
+  }
+  

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card {
+    height: 140px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 12px 16px; /* Reduced padding */
+    background-color: rgba(255,239,231,1);
+    box-sizing: border-box; /* Ensures padding is included in the width/height */
+    overflow: hidden; /* Hides any overflow */
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spreads the content evenly */
+    height: 100%;
+}
+
+.data {
+    font-family: 'Poppins';
+    font-size: 32px; /* Slightly reduced font size */
+    font-weight: 500;
+    margin: 0;
+    color:linear-gradient(0deg, #161E54, #161E54), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    
+    
+}
+
+.subInfo {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0;
+    color:  rgba(255, 81, 81, 1);
+}
+
+.info {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color:linear-gradient(0deg, #161E54, #161E54), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
